@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        body{
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        #form{
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-direction: column;
+        }
+        button{
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="form" >
+        <div id="display"></div>
+
+        <form id="form">
+            <label > Name: <input name="name" type="text" style="margin-left:35px;"></label>
+            <label > Age: <input name="age" type="number" style="margin-left:45px;"></label>
+            <label > Email: <input name="email" type="email" style="margin-left:33px;"></label>
+            <label > Password: <input name="password" type="password" style="margin-left:10px;"></label>
+            <label > Reg no: <input name="regNo" type="text" style="margin-left:25px;"></label>
+            <label > Pincode: <input name="pincode" type="text"  style="margin-left:20px;"></label>
+            <label > Url: <input name="url" type="url" style="margin-left:50px;"></label>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <script src="/hello.js"></script>
+</body>
+</html>
